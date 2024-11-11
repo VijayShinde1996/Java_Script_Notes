@@ -1,0 +1,13 @@
+1. Git Status
+git status
+
+2. Add All Files -
+git add .
+
+3.	Commit your changes:
+git commit -m "Your descriptive commit message"
+
+4.	Push your changes:
+git push origin main
+
+
