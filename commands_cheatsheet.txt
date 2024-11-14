@@ -1,0 +1,67 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---> Project Details
+Project - Global Workforce Modeling & Planning Tool
+Date- 08-11-2024
+Involved: Aniket, Shashank
+Current Tool - Global Workforce Modeling & Planning Tool Power Apps
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---> Python Environment Setup
+conda create -n wfmenv python=3.11
+conda activate wfmenv 
+
+or
+pip install virtualenv 
+python -m venv wfmenv
+wfmenv\Scripts\activate
+$ deactivate
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---> React documentation: 
+1. JD (https://fuel.deere.com/react)
+2. React (https://legacy.reactjs.org/docs/getting-started.html)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check React Installation -
+node -v
+npm -v
+npx -v
+
+# Create React App Template -
+npx create-react-app react_app
+
+# Change Current working Directory
+cd react_app
+# Run React App -
+npm start
+
+# VS Code Extensions Required --->
+1. Prettier - Code formatter- Code formatter ---> To activate the extension press---> Ctrl + Shift + P --> Click on Format Document --> Prettier - Code formatter ---> Configure
+2. ES7 React/Redux/GraphQL/React-Native snippets
+3. Simple React Snippets
+
+# Copy Bootstrap HTML & CSS code & Paste it in public/index.html-
+--> https://getbootstrap.com/
+
+# Convert HTML code to JSX
+--> https://magic.reactjs.net/htmltojsx.htm
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---> GitHub commands
+1. Check Git Status
+git status
+2. Add All Files to Staging Area
+git add .
+3. Commit Your Changes
+git commit -m "Your commit message"
+4. Push Your Changes to GitHub
+git push origin main
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---> Run the application
+A. CMD 1
+1. cd C:\vrs_root_apps\WFM_Tool\react_app\back_end
+2. wfmenv\Scripts\activate
+3. pip install -r requirements.txt
+4. python app.py
+
+B. CMD 2
+1. cd C:\vrs_root_apps\WFM_Tool\react_app
+2. npm start
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
